@@ -2,23 +2,23 @@ package edu.tallerweb.pptls;
 
 /**
  * Representa una de las Manos involucradas en el juego
-	Incluye la matriz con los posibles resultados
-	Filas		Jugador 1
-	Columnas	Jugador 2
-	
-				PIEDRA	SPOCK	PAPEL	LAGARTO	TIJERA
-		
- 	PIEDRA		EMPATA	PIERDE	PIERDE	GANA	GANA
- 	
- 	SPOCK		GANA	EMPATA	PIERDE	PIERDE	GANA
- 	
- 	PAPEL		GANA	GANA	EMPATA	PIERDE	PIERDE
- 	
- 	LAGARTO		PIERDE	GANA	GANA	EMPATA	PIERDE
- 	
- 	TIJERA		PIERDE	PIERDE	GANA	GANA	EMPATA
- 
- 
+ *Incluye la matriz con los posibles resultados
+ *	Filas		Jugador 1
+ *	Columnas	Jugador 2
+ *	
+ *				PIEDRA	SPOCK	PAPEL	LAGARTO	TIJERA
+ *		
+ *	PIEDRA		EMPATA	PIERDE	PIERDE	GANA	GANA
+ *	
+ *	SPOCK		GANA	EMPATA	PIERDE	PIERDE	GANA
+ *	
+ *	PAPEL		GANA	GANA	EMPATA	PIERDE	PIERDE
+ *	
+ *	LAGARTO		PIERDE	GANA	GANA	EMPATA	PIERDE
+ *	
+ *	TIJERA		PIERDE	PIERDE	GANA	GANA	EMPATA
+ *
+ *
  */
 
 public class Mano {
