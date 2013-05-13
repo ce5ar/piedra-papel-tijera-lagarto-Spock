@@ -25,7 +25,7 @@ public class Mano {
 	
 	private Forma forma;
 	
-	private Resultado [][] matriz = new Resultado [][]	{{Resultado.EMPATA, Resultado.PIERDE, Resultado.PIERDE,Resultado.GANA, Resultado.GANA},
+	private Resultado [][] matriz = new Resultado [][]	{{Resultado.EMPATA, Resultado.PIERDE, Resultado.PIERDE, Resultado.GANA, Resultado.GANA},
 														{Resultado.GANA, Resultado.EMPATA, Resultado.PIERDE, Resultado.PIERDE, Resultado.GANA},
 														{Resultado.GANA, Resultado.GANA, Resultado.EMPATA, Resultado.PIERDE, Resultado.PIERDE},
 														{Resultado.PIERDE, Resultado.GANA, Resultado.GANA, Resultado.EMPATA, Resultado.PIERDE},
